@@ -1,0 +1,74 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-image: linear-gradient(to bottom right, #00f490, #00bbc9);
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.jumbotron {
+  background-color: transparent;
+}
+
+.lead {
+  color: white;
+  font-size: 2.2rem;
+}
+
+/* **************************************** */
+
+.glass-button {
+  background-color: #00bcc95b;
+  border: 1px solid white;
+  color: white;
+}
+
+.glass-button:hover {
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.322);
+  color: white;
+}
+
+.glass-button:active {
+  background-color: #00bcc9;
+}
+
+.glass-button:focus {
+  box-shadow: 0px 5px 5px rgba(255, 255, 255, 0.507);
+}
+
+/* **************************************** */
+
+.btn-primary {
+  background-color: #00dd81;
+  border-color: #00dd81;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #00bbc9;
+  border-color: #00bbc9;
+}
+
+.card-title {
+  color: #00bbc9;
+  font-size: 1.5rem;
+  font-weight: 600;
+  outline-color: #00bbc9;
+}
+
+.dropdown-menu {
+  background-color: #00bcc95b;
+  border-color: white;
+}
+.dropdown-item {
+  color: white;
+}
+.dropdown-item:hover {
+  background-color: #00bcc95b;
+  border: 1px solid white;
+  color: white;
+  font-size: 1.1rem;
+}
